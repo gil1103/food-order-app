@@ -1,0 +1,29 @@
+.header {
+  background-color: #8a2b06;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.main-image {
+  z-index: 0;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.main-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 110%;
+  transform: rotateZ(-4deg) translateY(-4rem) translateX(-1rem);
+}
